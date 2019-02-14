@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="52" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="18060" scrolltop="11280" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="85" x="18045" y="12779" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="54" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="14038" scrolltop="11665" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="85" x="18045" y="12779" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
             </font>
@@ -90,9 +90,7 @@
               <ddsxmlobjectstreaminitwrapper binary="000c0000be13000088130000" />
             </control>
             <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dbo_vFactTransaction" vartype="8" />
-              </ddsxmlobj>
+              <ddsxmlobj />
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
@@ -423,6 +421,26 @@
               <point x="4871" y="17997" />
             </connector>
           </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vFactTransaction" left="0" top="0" logicalid="52" controlid="27" masterid="0" hint1="0" hint2="0" width="4732" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00007c12000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj />
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vFactTransaction" left="0" top="0" logicalid="53" controlid="28" masterid="0" hint1="0" hint2="0" width="4732" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00007c12000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_vFactTransaction" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
         </dds>
       </Value>
     </Annotation>
@@ -440,15 +458,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>18060</Value>
+      <Value>14038</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>11280</Value>
+      <Value>11665</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>20</Value>
+      <Value>0</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -1662,6 +1680,17 @@
             </Translation>
           </Translations>
         </Measure>
+        <Measure dwd:design-time-name="d09ff2a0-8089-420e-b24c-39c994735df6">
+          <ID>Is Finalized</ID>
+          <Name>Is Finalized</Name>
+          <Source dwd:design-time-name="649bcee9-462f-42e9-b963-72a5b26a3382">
+            <DataType>Boolean</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ea65b75f-bc3b-494e-8b12-0ecfefcfc185">
+              <TableID>dbo_vFactTransaction</TableID>
+              <ColumnID>Is_x0020_Finalized</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
@@ -1779,7 +1808,19 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE; </Text>
+CALCULATE;      
+CREATE MEMBER CURRENTCUBE.[Measures].[Profit Margin Percent]
+ AS [Measures].[Profit]/[Measures].[Total Including Tax - v Fact Sale], 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'v Fact Sale';   
+CREATE MEMBER CURRENTCUBE.[Measures].[Benefits]
+ AS [Measures].[Total Excluding Tax - v Fact Sale] - [Measures].[Total Excluding Tax], 
+FORMAT_STRING = "# ##0,00;-# ##0,00", 
+VISIBLE = 1;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Compleated transaction]
+ AS [Measures].[Outstanding Balance]/[Measures].[v Fact Transaction Count]*100, 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'v Fact Transaction'  ; </Text>
         </Command>
       </Commands>
     </MdxScript>
