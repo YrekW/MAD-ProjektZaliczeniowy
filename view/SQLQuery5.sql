@@ -12,7 +12,7 @@ GO
 CREATE view [dbo].[vDimPaymentMethod] as
 
 SELECT [Payment Method Key]
-      ,[WWI Payment Method ID]
+      --,[WWI Payment Method ID]
       ,[Payment Method]
       --,[Valid From]
       --,[Valid To]

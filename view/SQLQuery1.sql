@@ -11,7 +11,7 @@ GO
 
 CREATE VIEW [dbo].[vDimCity] as
 SELECT [City Key]
-      ,[WWI City ID]
+      --,[WWI City ID]
       ,[City]
       ,[State Province]
       ,[Country]
@@ -23,7 +23,7 @@ SELECT [City Key]
 	  --,[Valid From]
 	  --,[Valid To]
   FROM [Dimension].[City]
-  ORDER BY [Continent], [Country], [State Province], [City]
+  --ORDER BY [Continent], [Country], [State Province], [City]
 
 GO
 

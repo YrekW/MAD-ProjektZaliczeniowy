@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="52" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4980" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="55" x="18045" y="12779" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="52" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="18060" scrolltop="11280" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="85" x="18045" y="12779" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
             </font>
@@ -440,11 +440,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-4980</Value>
+      <Value>18060</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-5000</Value>
+      <Value>11280</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -456,7 +456,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
-      <Value>55</Value>
+      <Value>85</Value>
     </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
@@ -837,9 +837,6 @@
         <MeasureGroup dwd:design-time-name="87f59797-7c0c-4db0-9b3b-681923764061">
           <MeasureGroupID>v Fact Order</MeasureGroupID>
           <Measures>
-            <Measure dwd:design-time-name="356d1ec0-746f-4bf7-9cf2-1bc571171ed0">
-              <MeasureID>WWI Order ID</MeasureID>
-            </Measure>
             <Measure dwd:design-time-name="c49ebcc6-d4d5-4f18-8678-115de5cd4a58">
               <MeasureID>Quantity</MeasureID>
             </Measure>
@@ -979,9 +976,6 @@
         <MeasureGroup dwd:design-time-name="dade7365-3b33-4eb0-af04-658a823b0f9d">
           <MeasureGroupID>v Fact Sale</MeasureGroupID>
           <Measures>
-            <Measure dwd:design-time-name="7aa3ccea-4af7-4210-bcae-9de363eca7b4">
-              <MeasureID>WWI Invoice ID</MeasureID>
-            </Measure>
             <Measure dwd:design-time-name="0ea026a5-e8ce-4227-ac6e-e3108bac9ec0">
               <MeasureID>Quantity - v Fact Sale</MeasureID>
             </Measure>
@@ -1106,18 +1100,6 @@
         <MeasureGroup dwd:design-time-name="00f41b5a-000e-4f05-9a4d-dd5f9127db55">
           <MeasureGroupID>v Fact Transaction</MeasureGroupID>
           <Measures>
-            <Measure dwd:design-time-name="a45616f4-3438-4dc2-9d3a-65dc99c28a60">
-              <MeasureID>WWI Customer Transaction ID</MeasureID>
-            </Measure>
-            <Measure dwd:design-time-name="4c8399dd-800a-4ad2-ad4a-77d10b1727b7">
-              <MeasureID>WWI Supplier Transaction ID</MeasureID>
-            </Measure>
-            <Measure dwd:design-time-name="19f18d6c-fb13-4c3f-bbf6-5408fb2c1c1e">
-              <MeasureID>WWI Invoice ID - v Fact Transaction</MeasureID>
-            </Measure>
-            <Measure dwd:design-time-name="5bdea0b2-04e6-472f-a95c-2e354f637b51">
-              <MeasureID>WWI Purchase Order ID</MeasureID>
-            </Measure>
             <Measure dwd:design-time-name="d540c0ab-6f1e-4aed-968e-1199afc4dc3a">
               <MeasureID>Total Excluding Tax - v Fact Transaction</MeasureID>
             </Measure>
@@ -1147,17 +1129,6 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="dc7f851f-da13-4f1d-82ed-9ef44bd31dbd">
-          <ID>WWI Order ID</ID>
-          <Name>WWI Order ID</Name>
-          <Source dwd:design-time-name="1c6578ff-5341-459b-a5d6-9cadf51b80dd">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="b861994c-811d-4a03-b564-fb1b6cd5d790">
-              <TableID>dbo_vFactOrder</TableID>
-              <ColumnID>WWI_x0020_Order_x0020_ID</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
         <Measure dwd:design-time-name="314d13bc-42cc-44c3-927c-f8dcf35330b7">
           <ID>Quantity</ID>
           <Name>Quantity</Name>
@@ -1377,17 +1348,6 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="03a8d42b-4311-4599-9941-7dd3bf841351">
-          <ID>WWI Invoice ID</ID>
-          <Name>WWI Invoice ID</Name>
-          <Source dwd:design-time-name="da409c36-2c94-44fe-a6e7-ec01fa1486e3">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="a9ef4ff6-0187-4f87-87f8-4294a43279fc">
-              <TableID>dbo_vFactSale</TableID>
-              <ColumnID>WWI_x0020_Invoice_x0020_ID</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
         <Measure dwd:design-time-name="a9a40f0d-edcb-4709-bf9b-81f34e35ec5c">
           <ID>Quantity - v Fact Sale</ID>
           <Name>Quantity - v Fact Sale</Name>
@@ -1607,50 +1567,6 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="5fd29d2a-6cfc-4470-b679-14bd54ca0442">
-          <ID>WWI Customer Transaction ID</ID>
-          <Name>WWI Customer Transaction ID</Name>
-          <Source dwd:design-time-name="061f33ee-9f8b-4834-b49a-e48a5b97de6c">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="f1c26983-645e-460a-8d49-faa8df17ec83">
-              <TableID>dbo_vFactTransaction</TableID>
-              <ColumnID>WWI_x0020_Customer_x0020_Transaction_x0020_ID</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="41271302-9015-461d-bf43-b220d1a2251b">
-          <ID>WWI Supplier Transaction ID</ID>
-          <Name>WWI Supplier Transaction ID</Name>
-          <Source dwd:design-time-name="0337bf3a-f08e-4a8a-86d2-651ea647323e">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="543af294-594e-4874-a19e-a6d6e725c306">
-              <TableID>dbo_vFactTransaction</TableID>
-              <ColumnID>WWI_x0020_Supplier_x0020_Transaction_x0020_ID</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="ed643c11-e376-43fd-a727-2ab39b806fcd">
-          <ID>WWI Invoice ID - v Fact Transaction</ID>
-          <Name>WWI Invoice ID - v Fact Transaction</Name>
-          <Source dwd:design-time-name="f615c12f-e9ea-4b30-87ff-356adb02afa4">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="036d52a7-e0a4-4337-b039-8a8041d4039a">
-              <TableID>dbo_vFactTransaction</TableID>
-              <ColumnID>WWI_x0020_Invoice_x0020_ID</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="fd6d5ffb-e7ae-460e-abe3-204c3d8bce2c">
-          <ID>WWI Purchase Order ID</ID>
-          <Name>WWI Purchase Order ID</Name>
-          <Source dwd:design-time-name="95b98cbe-4832-4f0f-a01f-b2f820a8b781">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="143357d2-fed6-415f-baa0-75f85967f026">
-              <TableID>dbo_vFactTransaction</TableID>
-              <ColumnID>WWI_x0020_Purchase_x0020_Order_x0020_ID</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
         <Measure dwd:design-time-name="6d87df58-c1ea-46d7-a693-479685591e29">
           <ID>Total Excluding Tax - v Fact Transaction</ID>
           <Name>Total Excluding Tax - v Fact Transaction</Name>

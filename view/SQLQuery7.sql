@@ -11,7 +11,7 @@ GO
 
 create view [dbo].[vDimTransactionType] as 
 SELECT [Transaction Type Key]
-      ,[WWI Transaction Type ID]
+      --,[WWI Transaction Type ID]
       ,[Transaction Type]
       --,[Valid From]
       --,[Valid To]

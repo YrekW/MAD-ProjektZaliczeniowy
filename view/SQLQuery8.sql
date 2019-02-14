@@ -17,7 +17,7 @@ SELECT [Order Key]
       ,[Picked Date Key]
       ,[Salesperson Key]
       ,[Picker Key]
-      ,[WWI Order ID]
+      --,[WWI Order ID]
       --,[WWI Backorder ID] --raczej sie nie przyda
       ,[Description]
       ,[Quantity]

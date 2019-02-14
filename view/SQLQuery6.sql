@@ -11,7 +11,7 @@ GO
 
 create view [dbo].[vDimSupplier] as
 SELECT [Supplier Key]
-      ,[WWI Supplier ID]
+      --,[WWI Supplier ID]
       ,[Supplier]
       ,[Category]
       ,[Primary Contact]
