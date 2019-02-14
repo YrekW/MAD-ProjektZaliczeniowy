@@ -737,6 +737,17 @@
       </Hierarchies>
     </Dimension>
   </Dimensions>
+  <CubePermissions>
+    <CubePermission dwd:design-time-name="42b56485-6ce2-4812-85ed-35a8ce2eb1e8">
+      <ID>CubePermission</ID>
+      <Name>CubePermission</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+  </CubePermissions>
   <Perspectives>
     <Perspective dwd:design-time-name="43b32d3f-f319-4532-8bf9-77bcd94fc878">
       <ID>Perspective</ID>
